@@ -1,2 +1,2 @@
 # KoseYazilariSiniflandirma
-Makine Öğrenmesi ve Veri Madenciliği Algoritmalarıyla..
+Veri Madenciliği ve Makine Öğrenmesi Algoritmaları Kullanılarak İnternetteki Köşe Yazılarının Sınıflandırılması
