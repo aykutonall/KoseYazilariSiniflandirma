@@ -1,0 +1,20 @@
+C:\Users\Onal\source\repos\StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.exe.config
+C:\Users\Onal\source\repos\StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.exe
+C:\Users\Onal\source\repos\StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.pdb
+C:\Users\Onal\source\repos\StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.csprojResolveAssemblyReference.cache
+C:\Users\Onal\source\repos\StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.csproj.CoreCompileInputs.cache
+C:\Users\Onal\source\repos\StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.exe
+C:\Users\Onal\source\repos\StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.pdb
+C:\Users\Onal\Desktop\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.exe.config
+C:\Users\Onal\Desktop\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.exe
+C:\Users\Onal\Desktop\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.pdb
+C:\Users\Onal\Desktop\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.csprojResolveAssemblyReference.cache
+C:\Users\Onal\Desktop\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.csproj.CoreCompileInputs.cache
+C:\Users\Onal\Desktop\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.exe
+C:\Users\Onal\Desktop\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.pdb
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.exe.config
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.exe
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\bin\Debug\StopWordsRemoval.pdb
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.csprojResolveAssemblyReference.cache
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.exe
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\2-StopWordsRemoval\StopWordsRemoval\obj\Debug\StopWordsRemoval.pdb

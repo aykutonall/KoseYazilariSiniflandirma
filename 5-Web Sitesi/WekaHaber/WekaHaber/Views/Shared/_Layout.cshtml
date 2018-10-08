@@ -1,0 +1,148 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haber Analiz-Anasayfa</title>
+    <link rel="stylesheet" href="~/Content/css/components.css">
+    <link rel="stylesheet" href="~/Content/css/icons.css">
+    <link rel="stylesheet" href="~/Content/css/responsee.css">
+    <link rel="stylesheet" href="~/Content/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/owl-carousel/owl.theme.css">
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="~/Content/css/template-style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="~/Content/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery-ui.min.js"></script>
+
+    <!--START CHART-->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script>
+        $(document)
+            .ready(function () {
+                        $.ajax({
+                            type: "GET",
+                            url: '@Url.Action("GetChartData")',
+                            dataType: "json",
+                            success: function (data) {
+                                var series = [{
+                                    type: 'pie',
+                                    name: '',
+                                    data: data
+                                }];
+                                createChart("#chartArea", "Sitedeki Köşe Yazılarının Kategorilerinin İstatistiği", series);
+                            }
+                        });
+            });
+        function createChart(chartcontainer, title, series) {
+            $(chartcontainer)
+                .highcharts({
+                    chart: {
+                        type: 'pie',
+                    },
+                    credits: {
+                        enabled: false,
+                    },
+                    exporting: {
+                        enabled: false,
+                    },
+                    plotOptions: {
+                        pie: {
+                            allowPointSelect: true,
+                            cursor: 'pointer',
+                            dataLabels: {
+                                enabled: true,
+                                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                                style: {
+                                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
+                                },
+                            }
+                        }
+                    },
+                    series: series,
+                    title: {
+                        text: title
+                    }
+                });
+        }
+    </script>
+    <!--END CHART-->
+
+</head>
+<body class="size-1140 align-content-left">
+    <div class="line">
+        <div id="content-wrapper">
+
+            <!-- LEFT COLUMN -->
+            <div class="s-12 m-4 l-3">
+                <div class="logo-box">
+                    <h1>Haber Analiz</h1>
+                </div>
+                <div class="aside-nav">
+                    <ul class="chevron">
+                        <li><a href="@Url.Action("Index","Home")"><i class="icon-list"></i>Anasayfa</a></li>
+                        <li><a href="@Url.Action("Yazarlar","Home")"><i class="icon-camera"></i>Yazarlar</a></li>
+                        <li>
+                            <a href="@Url.Action("Kategoriler","Home")"><i class="icon-heart"></i>Kategoriler</a>
+                            <ul>
+                                <li><a href="@Url.Action("Ekonomi","Home")">Ekonomi</a></li>
+                                <li><a href="@Url.Action("Egitim","Home")">Eğitim</a></li>
+                                <li><a href="@Url.Action("Siyaset","Home")">Siyaset</a></li>
+                                <li><a href="@Url.Action("Yasam","Home")">Yaşam</a></li>
+                                <li><a href="@Url.Action("Spor","Home")">Spor</a></li>
+                                <li><a href="@Url.Action("Saglik","Home")">Sağlık</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="@Url.Action("Iletisim","Home")"><i class="icon-mail"></i>İletişim</a></li>
+                    </ul>
+                    <div id="search" class="line">
+                        <input class="s-11" name="" placeholder="Search" title="Search" type="text" /><a class="s-1"><i class="icon-magnifying"></i></a>
+                    </div>
+                    <div id="social">
+                        <a target="_blank" href="https://www.facebook.com/aykutonall"><i class="icon-facebook_circle"></i></a> <a target="_blank" href="https://twitter.com/aykutonall"><i class="icon-twitter_circle"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="s-12 m-8 l-9">
+                <div class="box">
+                    <!-- HEADER -->
+                    <!-- CAROUSEL -->
+
+                    @RenderBody()
+
+                </div>
+                <!-- FOOTER -->
+                <div class="box footer">
+                    <footer class="line">
+                        <div class="s-12 l-6">
+                            <p>Copyright 2018, Aykut Önal<br />Trakya University Computer Engineering</p>
+                        </div>
+                        <div class="s-12 l-6">
+                            <a class="right" href="@Url.Action("Index","Home")" title="Responsee - lightweight responsive framework">Coding by Aykut Önal</a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img id="background" class="hide-s" src="~/Content/img/background.jpg" alt="">
+    <script type="text/javascript" src="~/Content/js/responsee.js"></script>
+    <script type="text/javascript" src="~/Content/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var owl = $('#header-carousel');
+            owl.owlCarousel({
+                nav: true,
+                dots: false,
+                items: 1,
+                loop: true,
+                navText: ["&#xf007", "&#xf006"],
+                autoplay: true,
+                autoplayTimeout: 4000
+            });
+        });
+    </script>
+</body>
+</html>

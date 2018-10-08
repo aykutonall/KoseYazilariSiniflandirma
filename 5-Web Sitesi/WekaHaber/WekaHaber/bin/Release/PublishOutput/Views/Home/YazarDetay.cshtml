@@ -1,0 +1,24 @@
+﻿@model WekaHaber.ViewModels.HomeYazarlar
+<section>
+    <article class="line">
+        <div class="margin">
+            <div class="s-12 m-12 l-2 date">
+                <i class="icon-calendar"></i>
+                <p>Yayınlanma<br /> Tarihi:<br /></p>
+                <p>@Model.t <br /></p>
+                <hr />
+                <i class="icon-user"></i>
+                <p>Yazar:<br /></p>
+                <p>@Model.yIsim</p>
+            </div>
+            <div class="s-12 m-12 l-10">
+                <h2>@Model.b</h2>
+                <p>
+                    @Model.i.Substring(0, 600)... <br />
+                    @Html.ActionLink("Devamını okumak için tıklayınız..", "Detail", new { Model.Id })
+                </p>
+                <hr>
+            </div>
+        </div>
+    </article>
+</section>

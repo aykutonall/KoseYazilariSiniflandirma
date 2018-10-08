@@ -1,0 +1,36 @@
+﻿@model WekaHaber.ViewModels.HomeDetail
+
+<section>
+    <article class="line">
+        <div class="margin">
+            <div class="s-12 m-12 l-2 date">
+
+                <i class="icon-calendar"></i>
+                <p>Yayınlanma<br /> Tarihi:<br /></p>
+                <p>@Model.t<br /></p>
+                <hr />
+
+                <i class="icon-user"></i>
+                <p>Yazar:<br /></p>
+                <p>@Model.yIsim</p>
+                <hr />
+
+                <i class="icon-newspaper"></i>
+                <p>Gazete:<br /></p>
+                <p>@Model.gIsim</p>
+                <hr />
+
+                <i class="icon-home"></i>
+                <p>Kategori:<br /></p>
+                <p>@Model.kIsim</p>
+            </div>
+            <div class="s-12 m-12 l-10">
+                <h2>@Model.b</h2>
+                <p>
+                    @Model.i
+                </p>
+                <hr>
+            </div>
+        </div>
+    </article>
+</section>

@@ -1,0 +1,56 @@
+﻿@model WekaHaber.ViewModels.HomeYazarlar
+<!--
+
+BU SAYFA DÜZENLENECEK....
+
+-->
+
+
+<div class="line">
+    <section>
+        <h2>YAZARLAR</h2>
+        <hr />
+        @foreach (var yazar in Model.Yazarlar)
+            {
+            <div class="s-12 m-12 l-6 margin-bottom">
+                <img src="@yazar.resimLink" style="width:100px; height:100px;" alt="" />
+                <h4>@yazar.Isim</h4>
+                <p>
+                    @Html.ActionLink("Tüm yazılarını görmek için tıklayınız..", "YazarDetay", new { yazar.Id })
+                </p>
+                <hr />
+            </div>
+        }
+    </section>
+</div>
+
+<div class="align-content-center">
+    @if (Model.Yazarlar.HasPreviousPage)
+            {
+        <a href="@Url.Action("Yazarlar",new { page=Model.Yazarlar.PreviousPage})" class="btn btn-primary btn-sm">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Önceki Sayfa
+        </a>
+    }
+    else
+    {
+        <a href="#" class="btn btn-default disabled btn-sm">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Önceki Sayfa
+        </a>
+    }
+    @if (Model.Yazarlar.HasNextPage)
+            {
+        <a href="@Url.Action("Yazarlar",new { page=Model.Yazarlar.NextPage})" class="btn btn-primary btn-sm">
+
+            Sonraki Sayfa <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    }
+    else
+    {
+        <a href="#" class="btn btn-default disabled btn-sm">
+
+            Sonraki Sayfa <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    }
+</div>

@@ -1,0 +1,65 @@
+﻿@model WekaHaber.ViewModels.HomeSaglik
+
+<div class="row">
+    <div class="col-md-12">
+        <div id="chartArea"></div>
+    </div>
+</div>
+
+<section>
+    <article class="line">
+        <div class="margin">
+            @foreach (var makale in Model.Makaleler)
+            {
+                <div class="s-12 m-12 l-2 date">
+                    <i class="icon-calendar"></i>
+                    <p>Yayınlanma<br /> Tarihi:<br /></p>
+                    <p>@makale.Tarih <br /></p>
+                    <hr />
+                    <i class="icon-user"></i>
+                    <p>Yazar:<br /></p>
+                    <p>@makale.YazarId.Isim</p>
+                </div>
+                <div class="s-12 m-12 l-10">
+                    <h2>@makale.Baslik</h2>
+                    <p>
+                        @makale.Icerik.Substring(0, 600)... <br />
+                        @Html.ActionLink("Devamını okumak için tıklayınız..", "Detail", new { makale.Id })
+                    </p>
+                    <hr>
+                </div>
+            }
+        </div>
+    </article>
+</section>
+
+<div class="align-content-center">
+    @if (Model.Makaleler.HasPreviousPage)
+            {
+        <a href="@Url.Action("Saglik",new { page=Model.Makaleler.PreviousPage})" class="btn btn-primary btn-sm">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Önceki Sayfa
+        </a>
+    }
+    else
+    {
+        <a href="#" class="btn btn-default disabled btn-sm">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Önceki Sayfa
+        </a>
+    }
+    @if (Model.Makaleler.HasNextPage)
+            {
+        <a href="@Url.Action("Saglik",new { page=Model.Makaleler.NextPage})" class="btn btn-primary btn-sm">
+
+            Sonraki Sayfa <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    }
+    else
+    {
+        <a href="#" class="btn btn-default disabled btn-sm">
+
+            Sonraki Sayfa <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    }
+</div>

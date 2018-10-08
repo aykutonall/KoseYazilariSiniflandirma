@@ -1,0 +1,38 @@
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.exe.config
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.exe
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.pdb
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.Form1.resources
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.Properties.Resources.resources
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csproj.GenerateResource.Cache
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csproj.CoreCompileInputs.cache
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.exe
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.pdb
+C:\Users\Onal\source\repos\MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csprojResolveAssemblyReference.cache
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.exe.config
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.exe
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.pdb
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csprojResolveAssemblyReference.cache
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.Form1.resources
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.Properties.Resources.resources
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csproj.GenerateResource.Cache
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csproj.CoreCompileInputs.cache
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.exe
+C:\Users\Onal\Desktop\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.pdb
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.exe.config
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.exe
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.pdb
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csprojResolveAssemblyReference.cache
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.Form1.resources
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.Properties.Resources.resources
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csproj.GenerateResource.Cache
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.exe
+D:\Masaüstü\Ders Dökümanları\4.Sınıf_1.Dönem_Alınan_Dersler\PROJE_1\Programlar ve Veriler\Proje Programlar\4-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.pdb
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.exe.config
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.exe
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\bin\Debug\MakaleEtiketleme.pdb
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csprojResolveAssemblyReference.cache
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.Form1.resources
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.Properties.Resources.resources
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.csproj.GenerateResource.Cache
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.exe
+C:\Users\Onal\Desktop\PROJE\3-MakaleEtiketleme\MakaleEtiketleme\obj\Debug\MakaleEtiketleme.pdb
