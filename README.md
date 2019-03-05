@@ -1,10 +1,10 @@
 # KoseYazilariSiniflandirma
 Veri Madenciliği ve Makine Öğrenmesi Algoritmaları Kullanılarak İnternetteki Köşe Yazılarının Sınıflandırılması
 
-Web Crawler --> Crawler ile veri çekildi. (Eğitim modeli oluşturmak için)
-2. Uygulama --> Stop wordler temizlendi ve Özel karakterlerin başına \ getirildi.
-3. Uygulama --> Csharp uygulamasıyla manuel olarak etiketleme yapıldı.
+WebCrawler --> Crawler ile veri çekildi. (Eğitim modeli oluşturmak için) - Java
+StopWordsRemoval --> Stop wordler temizlendi ve Özel karakterlerin başına \ getirildi. - C#
+MakaleEtiketleme --> Csharp uygulamasıyla manuel olarak etiketleme yapıldı. - C#
 
-4. Uygulama --> Eğitim Modeline Göre Güncel Köşe Yazılarının Sınıflandırılması
-5. Uygulama --> Sonuçların Web Sitesinde Gösterilmesi
-6. Uygulama --> Sonuçların Android Mobil Uygulamasında Gösterilmesi
+BasınMakale --> Eğitim Modeline Göre Güncel Köşe Yazılarının Sınıflandırılması - Java
+WekaHaber --> Sonuçların Web Sitesinde Gösterilmesi - .Net MVC
+MobilUygulama --> Sonuçların Android Mobil Uygulamasında Gösterilmesi - Android
